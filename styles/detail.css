@@ -1,10 +1,10 @@
-#slideshow-container, #booking-form {
+#slide-C, #booking-form {
     padding: 1%;
     text-align: center;
     border: 1px solid black;
     max-height: 400px;
 }
-#slideshow-container {
+#slide-C {
     margin-left: 2% ;
     border-right: none;
     flex-grow: 3;
@@ -17,11 +17,12 @@
 #hotel-description {
     margin: 2%;
 }
-#detail-container {
-    margin-top:7%;
-    margin-bottom: 7%;
+#DE-container {
+    margin-top:100px;
+    margin-bottom: 100px;
+    height: 130vh;
 }
-#slideshow-booking {
+#slide-B {
     display: flex;
     justify-content: start;
     align-content: center;
@@ -29,7 +30,7 @@
 .slider-image {
     max-height: 350px;
 }
-.outer {
+.out {
     padding: 3%;
     display: flex;
     justify-content: space-between;
@@ -40,7 +41,7 @@
 .inner {
     width: 60%;
 }
-.carousel-control-prev-icon,
+.CC-control-p-icon,
 .carousel-control-next-icon {
   height: 100px;
   width: 100px;
@@ -53,7 +54,7 @@
   color: rosybrown;
 }
 
-.carousel-control-prev-icon:after {
+.CC-control-p-icon:after {
   content: '<';
   font-size: 55px;
   color: rosybrown;

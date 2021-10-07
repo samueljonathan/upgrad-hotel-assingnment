@@ -14,7 +14,7 @@
     border-radius: 25%;
     box-shadow: 10px 10px 10px grey;
 }
-.city-card-and-name-inner {
+.cc-cardname {
     position: relative;
 }
 /* Added CSS for background image */
@@ -31,7 +31,7 @@
 #search-bar {
     position: absolute;
     top: 50%;
-    left: 36%; 
+    left: 36%;
     right: 36%;
     bottom: 50%;
 }
@@ -46,7 +46,7 @@
 #search-input:focus {
     outline: none;
 }
-.overlay {
+.overt {
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, 0.5);
@@ -57,15 +57,19 @@
     text-align: center;
     border-radius: 25%;
 }
-.city-card-and-name-inner:hover .overlay {
+.cc-cardname:hover .overt {
     opacity: 1;
 }
-.overlay span {
+.overt span {
     position:relative;
     top:45%;
 }
 #view-more {
-    margin-bottom:7%;
+    margin-bottom:100px;
     display: flex;
     justify-content: center;
 }
+
+
+
+
